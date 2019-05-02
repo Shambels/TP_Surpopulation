@@ -257,20 +257,23 @@ h3 {
 }
 
 .skew-nav img {
-  width: 140%;
+  width: 350%;
   height: 100%;
   display: block;
   object-fit: cover !important;
   transform: skew(15deg);
   margin: 0 -10% 0 -10%;
   position: absolute;
-  left: -50px;
+  left: -5rem;
   filter: blur(10px);
-  transition: .5s;
+  transition: .4s;
 }
 
 .skew-nav a:hover img {
   filter: blur(0);
+}
+.skew-nav a:hover p {
+  opacity: 0;
 }
 
 .skew-nav a p {

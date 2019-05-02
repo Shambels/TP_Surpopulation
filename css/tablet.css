@@ -40,4 +40,9 @@
   .case :first-child {
     margin: 15px;
   }
+
+  /* PAGE SOLUTIONS */
+  .skew-nav img {
+    width: 200%;
+  }
 }
