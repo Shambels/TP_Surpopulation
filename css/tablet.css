@@ -1,0 +1,43 @@
+@media (min-width: 481px) {
+  /* GLOBAL */
+
+  /* NAVIGATION MENU */
+  .menu {
+    display: flex;
+    margin: auto;
+  }
+
+  .nav-link {
+    font-size: 12px;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    margin: auto 0;
+    left: 0;
+  }
+
+  .nav-link::after {
+    top: 32px;
+    left: 5px;
+    height: 3px;
+    width: 10px;
+  }
+
+  .nav-link:hover::after {
+    left: 15%;
+  }
+
+  /* PAGE INDEX */
+  .header-text {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .header-text-div {
+    top: 35%;
+  }
+
+  /* PAGE PROBLEMATIQUE */
+  .case :first-child {
+    margin: 15px;
+  }
+}

@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  /* GLOBAL */
+    /* NAVIGATION MENU */
+
+  .nav-link {
+    font-size: 16px;
+    padding: 20px !important;
+  }
+
+  .nav-link::after {
+    top: 50px;
+  }
+
+  /* PAGE INDEX */
+
+  .header-text {
+    font-size: 40px;
+  }
+
+  .skew-nav a p {
+    font-size: 40px !important;
+  }
+}
