@@ -104,7 +104,7 @@ h3 {
 
 
 .marges {
-  margin: 55px;
+  margin: 5px;
 }
 
 .row {
@@ -339,7 +339,8 @@ h3 {
 }
 
 .avantage-1 {
-  background: url('../images/batiment_2.jpg') top right fixed no-repeat;
+  background: url('../images/test/josiah-ingels-1310095-unsplash.jpg') fixed no-repeat;
+  background-size: cover;
 }
 .tablet-wrap {
   flex-wrap: wrap;

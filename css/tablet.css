@@ -1,6 +1,9 @@
 @media (min-width: 481px) {
   /* GLOBAL */
 
+  .marges {
+    margin: 15px;
+  }
   /* NAVIGATION MENU */
   .menu {
     display: flex;
