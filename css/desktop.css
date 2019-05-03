@@ -24,4 +24,21 @@
    .skew-nav img {
     width: 180%;
   }
+  .demi {
+    height: 75vh;
+  }
+  .tablet-wrap {
+    flex-wrap: nowrap;
+  }
+
+  .tablet-hide {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+  }
+  .tablet-show {
+      opacity: 0;
+      visibility: hidden;
+      display: none;
+  }
 }

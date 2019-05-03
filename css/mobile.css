@@ -45,6 +45,7 @@ footer {
 
 .fullscreen-image-div {
   width: 100%;
+  /* height: 100vh; */
   position: relative;
   margin-bottom: 25px;
 }
@@ -239,7 +240,7 @@ h3 {
 .skew-nav {
   display: flex;
   height: 100vh;
-  margin: 0 -5vw
+  margin: 0 -5vw -21vh -5vw;
 }
 
 .skew-nav a {
@@ -294,4 +295,50 @@ h3 {
 
 .skew-nav-active {
   filter: blur(0);
+}
+
+/* PAGE AVANTAGES */
+
+.overflow {
+  overflow: hidden;
+}
+
+.case-tiers {
+  /* border: solid 5px saddlebrown; */
+  height: 30vh;
+  width: 1500px;
+  margin: 10px 30px;
+  filter: grayscale(.5);
+  transition: .4s;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.vertical-center {
+  align-items: center;
+}
+
+.demi {
+  height: 40vh;
+}
+/* PAGE AVANTAGES  */
+
+.avantage-1 {
+  background: url('../images/batiment_2.jpg') top right fixed no-repeat;
+}
+.tablet-wrap {
+  flex-wrap: wrap;
+}
+
+.tablet-hide {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+
+.tablet-show{
+  opacity: 1;
+  display: block;
+  visibility: visible;
 }
