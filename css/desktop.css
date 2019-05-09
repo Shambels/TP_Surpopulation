@@ -15,7 +15,11 @@
   .nav-link::after {
     top: 50px;
   }
-
+  /* PAGE PROBLEMATIQUE */
+  .fullscreen-image-div h1 {
+    top: 45%;
+    font-size: 75px;
+  }
   /* PAGE INDEX */
 
   .header-text {

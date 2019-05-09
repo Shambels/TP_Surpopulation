@@ -40,6 +40,10 @@
   }
 
   /* PAGE PROBLEMATIQUE */
+  .fullscreen-image-div h1 {
+    top: 35%;
+  }
+
   .case :first-child {
     margin: 15px;
   }
